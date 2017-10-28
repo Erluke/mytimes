@@ -1,0 +1,12 @@
+* {
+  font-family: Georgia;
+}
+h1 {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  color: mediumaquamarine;
+  display: flex;
+  align-items: center;
+  position: fixed;
+}
