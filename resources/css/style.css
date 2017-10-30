@@ -11,6 +11,38 @@ header {
   background-color: white;
   Z-index: 1;
 }
-.logo span {
-    color: mediumaquamarine;
+.logo {
+  display:flex;
+  align-items: center;
+  padding-left: 30px;
+  flex-grow: 1;
+  width: 100%;
+}
+.topics {
+  width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border: 1px solid black;
+
+}
+header nav{
+  display: inline-block;
+  width:100%;
+  padding-right: 40px;
+  border: 2px solid red;
+}
+nav{
+  z-index: 5;
+  border: 2px solid red;
+}
+nav span {
+  display: inline-block;
+  padding: 10 20;
+}
+div.topics a:link {
+  color: black;
+}
+div.topics a:visited {
+  color: black;
 }
