@@ -33,28 +33,31 @@ a:visited {
 .main {
   display: flex;
   padding-top: 120px;
-  align-items: center;
+  /*align-items: center;*/
   justify-content: space-around;
 
 }
 .large{
-  flex-flow: column;
-  display: flex;
+  justify-content: space-between;;
+  align-items: flex-start;
+  flex-wrap:wrap;
+  display: inline-flex;
   width: 630px;
   border: 1px solid black;
 }
 .medium {
-  display: flex;
+  display: block;
   width: 300px;
   border: 1px solid black;
 }
 .small {
-  display: flex;
+  display: block;
   width: 240px;
   border: 1px solid black;
 }
-.top {
-  display: flex;
+.top1 {
+  display: inline-flex;
+  flex-wrap: wrap;
 }
 .top1 h1 {
   font-family: Georgia;
@@ -65,4 +68,68 @@ a:visited {
   height: 200px;
   border: 2px dotted blue;
   background-image: url("../images/img-story-main.png");
+}
+.middle1 {
+  border: 2px dotted blue;
+  width: 300px;
+  display: block;
+}
+.middle1 h3 {
+  text-align: center;
+  font-family: Georgia;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  height: 300px;
+  background-image: url("../images/img-story-2.png");
+}
+.bottom1 {
+  border: 2px dotted blue;
+  display: block;
+  width: 300px;
+}
+.bottom1 h3 {
+  height: 300px;
+  text-align: center;
+  font-family: Georgia;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  background-image: url("../images/img-story-3.png");
+}
+.top2 {
+  font-family: Georgia;
+}
+.middle2 {
+  font-family: Georgia;
+}
+.middle2 h3{
+  font-family: Georgia;
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  height: 300px;
+  background-image: url("../images/img-story-1.png")
+}
+.top3 {
+
+}
+.top3 h3 {
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+.middle3 {
+  display: block;
+}
+.bite {
+  font-size: 12px;
+  font-family: verdana;
+  color: DimGray;
+  background-color: Whitesmoke;
+  padding: 10px 20px;
+  border-bottom: 1px solid black;
+  display: block;
 }
