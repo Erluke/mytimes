@@ -28,3 +28,26 @@ a:link {
 a:visited {
   color: black;
 }
+.main {
+  display: flex;
+  padding-top: 120px;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.large{
+  flex-flow: column;
+  display: flex;
+  width: 630px;
+  border: 1px solid black;
+}
+.medium {
+  display: flex;
+  width: 300px;
+  border: 1px solid black;
+}
+.small {
+  display: flex;
+  width: 240px;
+  border: 1px solid black;
+}
