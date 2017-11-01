@@ -131,8 +131,8 @@ a:visited {
   display: block;
 }
 footer {
-  flex-wrap: wrap;
-
+  flex-direction: column;
+  text-align: center;
   font-family: Verdana;
   margin: auto;
   font-size: 12px;
@@ -161,6 +161,5 @@ footer {
 
 }
 .copyright {
-
-  display: inline-block;
+display: block;
 }
